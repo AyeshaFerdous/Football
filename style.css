@@ -136,3 +136,56 @@ ul .hamburg-item{
     height: 100%;
 }
 /* card section ends */
+
+/* highlights section starts */
+#highlights-section{
+    margin-bottom: 80px;
+}
+.highlights-container{
+    align-items: center;
+    gap: 50px;
+}
+.highlights-content{
+    width: 50%;
+}
+.highlights-content h1{
+    color: rgb(10, 8, 38);
+font-size: 3rem;
+font-weight: 700;
+}
+.highlights-content p{
+    color: rgb(108, 108, 108);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+
+}
+.highlights-img{
+    width: 50%;
+}
+.highlights-img img{
+    width: 100%;
+}
+/* highlights section ends */
+
+/* footer section starts */
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-logo img{
+    width: 100%;
+}
+.footer-icons{
+    margin-bottom: 20px;
+}
+.footer-icons img{
+    margin-right: 20px;
+}
+.footer-copyright{
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+/* footer section ends */
