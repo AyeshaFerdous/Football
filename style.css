@@ -8,14 +8,131 @@
 body{
     font-family: "Poppins", sans-serif;
 }
-
+.header-bg{
+    background: rgb(45, 37, 160);
+    margin-bottom: 80px;
+}
 
 /* common styles starts */
 .container{
     max-width: 1200px;
     margin: 0 auto;
 }
-
-
+.display-flex{
+    display: flex;
+}
+.btn{
+    color: rgb(255, 255, 255);
+   font-size: 1rem;
+   font-weight: 500;
+   background: rgb(224, 44, 109); 
+   border: none;
+}
 
 /* common styles ends */
+
+/* nav lists starts */
+.nav-list{
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.nav-list-items-container{
+    gap: 36px;
+}
+.nav-list .nav-lists{
+    list-style: none;
+}
+.nav-list .nav-list-items{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    
+}
+.nav-button{
+   padding: 10px 24px 10px 24px;
+}
+.nav-icon{
+    color: white;
+    margin-right: 10px;
+}
+
+ul .hamburg-list{
+    list-style: none;
+}
+ul .hamburg-item{
+    text-decoration: none;
+    color: white;
+    font-size: 1.125rem;
+}
+
+#hamburg-menu{
+   display: none;
+}
+/* nav lists ends */
+
+/* banner starts */
+.banner{
+    align-items: center;
+}
+.banner-content{
+    width: 50%;
+}
+.banner-content h1{
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+.banner-img{
+    width: 50%;
+}
+.banner-img img{
+    width: 100%;
+}
+.banner-btn{
+    padding: 10px 24px 10px 24px;
+    
+}
+.banner-icon{
+    margin-left: 10px;
+}
+/* banner ends */
+
+/* card section starts */
+#card-section{
+    margin-bottom: 80px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+}
+.card{
+    width: 100%;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+   
+}
+.card-content h3{
+    color: rgb(24, 25, 31);
+   font-size: 1.73rem;
+   font-weight: 700;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.card-content p{
+    color: rgb(108, 108, 108);
+   font-size: 1rem;
+   font-weight: 400;
+}
+.card-img{
+    width: 100%;
+    height: 256px;
+}
+.card-img img{
+    width: 100%;
+    height: 100%;
+}
+/* card section ends */

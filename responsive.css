@@ -1,0 +1,29 @@
+@media screen and (max-width : 576px){
+    .container{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .nav-list-items-container{
+        display: none;
+
+    }
+    #hamburg-menu{
+        display: block;
+     }
+     .banner{
+        flex-direction: column;
+        gap: 50px;
+     }
+     .banner-content{
+        width: 100%;
+     }
+     .banner-content h1{
+        font-size: 2.25rem;
+     }
+     .banner-img{
+        width: 100%;
+     }
+     .card-container{
+        grid-template-columns: repeat(1, 1fr);
+     }
+}
